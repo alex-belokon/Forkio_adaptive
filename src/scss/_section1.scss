@@ -1,0 +1,194 @@
+
+.people-talk{
+    background-image: url(../../dist/img/Section1/section1-bg.webp);
+    background-size: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    color: $main_white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    & >h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 57px;
+    @media (min-width: 555px) {
+        padding-top: 86px;
+        font-size: 42px;
+        line-height: 44px;
+        }
+    }
+    & main{
+        margin: 0 auto;
+        text-align: center;
+    }
+    & .logo{
+        font-style: italic;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Lato', sans-serif;
+        margin-top: 45px;
+        margin-bottom: 37px;
+        @media (min-width: 481px) {
+            margin-top: 0px;
+            margin-bottom: 0;
+            }
+        @media (min-width: 993px) {
+           & > img{
+                margin: 0;
+                padding: 0;
+            }
+                }
+            
+    }
+    .feedbacks{
+        @media (min-width: 481px) {
+            margin-top: 85px;
+            display: inline-grid;
+            grid-template-columns: 1fr 1fr;
+        & :nth-child(odd){
+            margin-right: 34px;
+        }
+        & :nth-child(even){
+            margin-left: 8px;
+        }
+        
+        & :nth-child(1){
+            margin-top: 7px;
+        }
+        & :nth-child(1) > p{
+            margin-top: 33px;
+        }
+
+        & :nth-child(2){
+            margin-top: 7px;
+        }
+        & :nth-child(2) > p{
+            margin-top: 26px;
+        }
+
+        & :nth-child(3){
+            margin-top: 58px;
+        }
+        & :nth-child(3) > p{
+            margin-top: 22px;
+        }
+
+        & :nth-child(4){
+            margin-top: 88px;
+        }
+        & :nth-child(4) > p{
+            margin-top: 32px;
+        }
+
+        & :nth-child(5){
+            margin-top: 62px;
+        }
+        & :nth-child(5) > p{
+            margin-top: 22px;
+        }
+
+        & :nth-child(6){
+            margin-top: 56px;
+        }
+        & :nth-child(6) > p{
+            margin-top: 28px;
+        }
+            }
+    @media (min-width: 993px) {
+        max-width: 1200px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: min-content;
+        padding: 0;
+        margin-top: 75px;
+        & :nth-child(odd){
+            margin-right: 0px;
+        }
+        & :nth-child(even){
+            margin-left: 0x;
+        }
+        & :nth-child(1){
+            margin-top: 10px;
+            
+        }
+        & :nth-child(1) > p{
+            margin-top: 33px;
+            // margin-right: 40px;
+        }
+
+        & :nth-child(2){
+            margin-top: 7px;
+            
+        }
+        & :nth-child(2) > p{
+            margin-top: 29px;
+            // margin-left: 40px;
+        }
+
+        & :nth-child(3){
+            margin-top: 0px;
+        }
+        & :nth-child(3) > p{
+            margin-top: 22px;
+        }
+
+        & :nth-child(4){
+            margin-top: 116px;
+        }
+        & :nth-child(4) > p{
+            margin-top: 33px;
+        }
+
+        & :nth-child(5){
+            margin-top: 112px;
+        }
+        & :nth-child(5) > p{
+            margin-top: 28px;
+        }
+
+        & :nth-child(6){
+            margin-top: 111px;
+        }
+        & :nth-child(6) > p{
+            margin-top: 30px;
+        }
+    }
+}
+.section-footer_text{
+    color: #A291A5;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 2px  solid #645766;
+    margin: 0 auto;
+    position: relative;
+        
+    @media (min-width: 481px) {
+        margin-top: 67.5px;
+        margin-bottom: 19.5px;
+        border-bottom: none;
+    
+    }
+    @media (min-width: 995px) {
+        width: 71%;
+        margin-top: 118px;
+        margin-bottom: 18.5px;
+
+    }
+}
+.line{
+    display: none;
+    @media (min-width: 481px) {
+        display: block;
+        border-bottom: 2px  solid #645766;
+        width: 72.4%;
+        margin: 0 auto;
+    }
+    
+    @media (min-width: 995px) {
+        width: 62%;
+    }
+}}
